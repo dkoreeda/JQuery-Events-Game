@@ -1,0 +1,97 @@
+body {
+  width: 80%;
+  height: 600px;
+  background-image: url('img/landscape2.png');
+  background-size: cover;
+  padding: 5%;
+  margin: 0 auto;
+  font-size: 18px
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.racetrack {
+  width: 90%;
+  height: 100px;
+  margin: 2% 0;
+  padding: 2%;
+  position: relative;
+}
+
+.players {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+#player1 {
+  background-image: url('img/coelho1.png');
+  background-size: cover;
+}
+
+#player2 {
+  background-image: url('img/coelho2.png');
+  background-size: cover;
+}
+
+#carrot {
+  left: 100px;
+}
+ button {
+  background: url('img/start-button.png') no-repeat;
+ }
+
+.start-button {
+  background-size: cover;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  border: none;
+  display: block;
+}
+
+.tap {
+  width: 30%;
+  height: 50px;
+  color: #07385a;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#reset {
+  background: url('img/restart-button.png') no-repeat;
+  margin-bottom: 15%;
+}
+
+@media (max-width: 500px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
